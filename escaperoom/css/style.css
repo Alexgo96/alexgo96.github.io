@@ -1,0 +1,40 @@
+body{
+  width: 100%;
+  height: 400px;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+.show{
+  display: none;
+  top: 200px;
+  text-align: center;
+  color: white;
+  border: black;
+  background-color: green;
+}
+.show > p{
+  size: 10000px;
+}
+.hide {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  position: relative;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:10%; top:0%;}
+  25%  {background-color:yellow; left:85%; top:0%;}
+  50%  {background-color:blue; left:85%; top:100%;}
+  75%  {background-color:green; left:10%; top:100%;}
+  100% {background-color:red; left:10%; top:0%;}
+}
