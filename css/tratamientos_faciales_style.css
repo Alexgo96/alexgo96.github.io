@@ -1,0 +1,640 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#navbarMain{
+	/*background-image: url("../imagenes/18121.jpg");
+	background-repeat: no-repeat;
+	background-position: center;*/
+	/*background-size: 2000px;*/
+	background-size: 100px;
+	background-color: rgba(255, 255, 230, 1);
+	height: 100px;
+	transition: background-color 0.5s linear;
+	/*background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;*/
+}
+
+/* Navbar Header Items*/
+/*#navbarHeader{
+	padding-left: 400px;
+}*/
+
+#navbarHeader a{
+font-size: 25px;
+/*padding-top: 30px;*/ /* Antes era 70px */
+}
+
+
+/* Slides */
+/*#slidesContainer{
+	padding-top: 150px;
+	width: 100%;
+	height: 25px;
+}*/
+
+/*.carousel{
+	width: 100%;
+}*/
+
+.container-fluid{
+	width: 100%;
+}
+
+/*DROPDOWNS OPTIONS*/
+
+.dropdown > a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 55% 80%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.dropdown > a:hover, .dropdown >a:focus {
+    background-size: 87% 2px;
+}
+
+.dropdown-item{
+	font-size: 10px;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+.dropdown-item:hover{
+	background-color: rgba(78, 78, 78, 1);
+}
+
+.carousel{
+	padding-top: 50px;
+	/*width: 100%;*/
+	height: 100%;
+}
+.carousel:after{
+	content: "";
+	position: absolute;
+	bottom: -50px;
+	left: 25%;
+	width: 50%;
+	height: 4px;
+	background-color: #ffe0b3;
+	margin-left: -30px;
+}
+
+.carousel-inner{
+	width: 100%;
+	height: 100%;
+}
+
+.carousel-inner img{
+	width: 100%;
+	height: 100%;
+}
+
+.carousel-caption{
+	/*padding-bottom: 500px;*/
+	background-color: rgba(220,220,220, 0.3);
+}
+
+.carousel-caption h5{
+	font-size: 50px;
+}
+
+.carousel-caption p{
+	font-size: 30px;
+}
+
+.carousel-item > img{
+	max-height: 500px;
+}
+
+.slides_encabezado_1{
+	/*-webkit-text-stroke: 1px #ffe0b3;
+	text-shadow: 1px 1px;
+	color: white;*/
+	font-family: Open Sans Condensed Light;
+	color: 	#FFFFFF;
+	font-size: 50px;
+}
+
+.slides_encabezado_2{
+	/*-webkit-text-stroke: 1px #ffe0b3;
+	text-shadow: 1px 1px;
+	color: white;*/
+	font-family: Open Sans Condensed Light;
+	color: #F5F5F5;
+}
+
+.slides_encabezado_3{
+	/*-webkit-text-stroke: 1px #ffe0b3;
+	text-shadow: 1px 1px;
+	color: white;*/
+	font-family: Open Sans Condensed Light;
+}
+
+.slides_parrafo_1{
+	text-shadow: 1px 1px #C8C8C8;
+	font-family: Open Sans Condensed Light;
+	font-size: 50px;
+}
+
+.frase{
+	margin-top: 50px;
+}
+
+.frase h2:after{
+	content: "";
+	position: absolute;
+	bottom: 10px;
+	left: 10%;
+	width: 80%;
+	height: 4px;
+	background-color: #ffe0b3;
+	margin-left: -30px;
+}
+
+.recomendaciones{
+	padding-top: 28px;
+}
+
+#jumbo1{
+	background-image: url("../imagenes/18121.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#jumbo1 a{
+	margin-left: 30%;
+}
+
+#jumbo2{
+
+	background-image: url("../imagenes/460117-PFK6CB-694.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 420px;
+}
+
+#jumbo2 a{
+	margin-left: 30%;
+	margin-top: 20%;
+}
+
+
+#jumbo3{
+
+	background-image: url("../imagenes/2627702.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#jumbo3 a{
+	margin-left: 30%;
+	margin-top: 5%;
+}
+
+.la-mari-section img:before{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 25%;
+	width: 50%;
+	height: 4px;
+	background-color: #ffe0b3;
+	margin-left: -30px;
+}
+.la-mari-section{
+	background-color: #e6e6e6;
+	/*background-size: auto;*/
+}
+
+/*.la-mari-section h1, h2, h3, p{
+	text-align: center;
+}*/
+
+#la-mari-section-description h1, h2, p{
+	text-align: center;
+}
+
+/* Blog Section */
+.blog-section{
+	background-color: #ffe6e6;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+	max-height: 100%;
+}
+.blog-section h1, h2{
+	text-align: center;
+}
+
+#blog-section-header{
+	background-color: #ffe6e6;
+}
+
+#blog-section-header h1, h2{
+	margin-top: 10px;
+	width: 100%;
+}
+
+#blog-1{
+	max-height: 600px;
+	background-image: url("../imagenes/2627702.jpg");
+}
+
+#blog-1 h3{
+	text-align: center;
+}
+
+#blog-2{
+	background-image: url("../imagenes/460117-PFK6CB-694.jpg");
+}
+
+#blog-2 h3{
+	text-align: center;
+}
+
+#blog-3{
+	background-image: url("../imagenes/18121.jpg");
+	height: 400px;
+}
+
+#blog-3 h3{
+	text-align: center;
+}
+
+/* Footer Section */
+.footer-section{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: #ffe6ff;
+}
+
+#footer-section-center-info h4, p{
+	text-align: center;
+}
+
+.footer-section-center-info-icons{
+	margin-left: 240px;
+}
+
+.footer-section-bottom p{
+	text-align: center;
+}
+
+.footer-section-bottom a{
+	font-size: 0.8em;
+}
+
+.footer-section-bottom i{
+	margin: 5px;
+}
+
+.fa-instagram{
+	color: rgb(255, 0, 85);
+}
+
+
+
+
+
+
+/*ESTE ES EL DE ESTA SECCION. LO ANTERIOR NO*/
+
+/* Tratamienots Faciales Header */
+#tratamientos-faciales-section{
+	margin-top: 100px;
+}
+
+#tratamientos-faciales-section-col{
+
+	background-color: #ffe6e6;
+}
+
+.tratamientos-faciales-section-header h2{
+	font-family: Open Sans Condensed Light;
+}
+
+/* LIMPIEZAS FACIALES HEADER */
+#tratamientos-faciales-section-limpiezas-faciales-col{
+	background-color: #ffe6e6;
+}
+
+.tratamientos-faciales-section-limpiezas-faciales-header h3{
+	font-family: Open Sans Condensed Light;
+}
+
+/* TRATAMIENTO HYDRA-VACUUM */
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-col{
+	background-color: #ffe6e6;
+}
+
+.tratamientos-faciales-section-limpiezas-faciales-hydravacuum-header h4{
+	font-family: Open Sans Condensed Light;
+	margin-left: 2em;
+	position: relative;
+}
+
+/* ICONOS  (DE MOMENTO NO SE USA)*/
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-icono-1-col{
+	background-color: #ffe6e6;
+}
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-icono-2-col{
+	background-color: #ffe6e6;
+}
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-icono-3-col{
+	background-color: #ffe6e6;
+}
+.tratamientos-faciales-section-limpiezas-faciales-hydravacuum-icono-1 img{
+	margin-left: 8em;
+}
+
+.tratamientos-faciales-section-limpiezas-faciales-hydravacuum-icono-2 img{
+	margin-left: 8em;
+}
+
+.tratamientos-faciales-section-limpiezas-faciales-hydravacuum-icono-3 img{
+	margin-left: 8em;
+}
+/* FIN ICONOS  (DE MOMENTO NO SE USA)*/
+
+/* ICONOS EN RPUEBAS*/
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-iconos-col{
+	background-color: #ffe6e6;
+}
+.tratamientos-faciales-section-limpiezas-faciales-hydravacuum-iconos img{
+	margin-left: 20em;
+}
+/* FIN ICONOS EN RPUEBAS*/
+
+/* TEXTO ICONOS EN PRUEBAS */
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-texto-iconos-row{
+	background-color: #ffe6e6;
+}
+
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-texto-iconos-col-1{
+	background-color: #ffe6e6;
+}
+
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-texto-iconos-col-2{
+	background-color: #ffe6e6;
+}
+
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-texto-iconos-col-3{
+	background-color: #ffe6e6;
+}
+
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-texto-iconos-col-1 h4{
+	margin-left: 10.7em;
+}
+
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-texto-iconos-col-2 h4{
+	margin-left: 5.5em;
+}
+
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-texto-iconos-col-3 h4{
+	margin-left: -14em;
+	text-align: center;
+}
+/* FIN TEXTO ICONOS EN PRUEBAS */
+
+/* TEXTO RESUMEN EN PRUEBAS */
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-resumen-row{
+	background-color: #ffe6e6;
+}
+
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-resumen-col{
+	background-color: #ffe6e6;
+}
+
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-resumen-col h2{
+	font-family: Open Sans Condensed Light;
+	text-align: center;
+	margin-left: 11em;
+	border-style: solid;
+	border-color: rgba(255, 255, 190, 1);
+	width: 50%; 
+}
+/* FIN TEXTO RESUMEN EN PRUEBAS */
+
+
+/* QUÉ ES HYDRAVACUUM SECTION */
+
+/* QUÉ ES HYDRAVACUUM SECTION HEADER */
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-que-es-header-row{
+	background-color: #ffe6e6;
+}
+
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-que-es-header-col{
+	background-color: #ffe6e6;
+}
+
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-que-es-header-col h4{
+	font-family: Open Sans Condensed Light;
+	text-align: center;
+}
+/* FIN QUÉ ES HYDRAVACUUM SECTION HEADER */
+
+/* QUÉ ES HYDRAVACUUM SECTION CONTENT */
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-que-es-content-row{
+	background-color: #ffe6e6;
+}
+
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-que-es-content-col{
+	background-color: #ffe6e6;
+}
+
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-que-es-content-col h6{
+	font-family: Open Sans Condensed Light;
+	text-align: center;
+	margin-left: 18em;
+	margin-right: 18em;
+}
+/* FIN QUÉ ES HYDRAVACUUM SECTION CONTENT */
+
+/* FIN QUÉ ES HYDRAVACUUM SECTION */
+
+/* CÓMO FUNCIONA HYDRAVACUUM SECTION */
+
+/* CÓMO FUNCIONA HYDRAVACUUM SECTION HEADER */
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-como-funciona-header-row{
+	background-color: #ffe6e6;
+}
+
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-como-funciona-header-col{
+	background-color: #ffe6e6;
+}
+
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-como-funciona-header-col h4{
+	font-family: Open Sans Condensed Light;
+	text-align: center;
+}
+/* FIN QCÓMO FUNCIONA HYDRAVACUUM SECTION HEADER */
+
+/* CÓMO FUNCIONA HYDRAVACUUM SECTION CONTENT */
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-como-funciona-content-row{
+	background-color: #ffe6e6;
+}
+
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-como-funciona-content-col{
+	background-color: #ffe6e6;
+}
+
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-como-funciona-content-col h6{
+	font-family: Open Sans Condensed Light;
+	text-align: center;
+	margin-left: 18em;
+	margin-right: 18em;
+}
+
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-como-funciona-content-col ul{
+	font-family: Open Sans Condensed Light;
+	margin-left: 25em;
+}
+/* FIN CÓMO FUNCIONA HYDRAVACUUM SECTION CONTENT */
+
+/* FIN CÓMO FUNCIONA HYDRAVACUUM SECTION */
+
+
+/* CÓMO FUNCIONA HYDRAVACUUM SECTION */
+
+/* CÓMO FUNCIONA HYDRAVACUUM SECTION HEADER */
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-como-funciona-header-row{
+	background-color: #ffe6e6;
+}
+
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-como-funciona-header-col{
+	background-color: #ffe6e6;
+}
+
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-como-funciona-header-col h4{
+	font-family: Open Sans Condensed Light;
+	text-align: center;
+}
+/* FIN QCÓMO FUNCIONA HYDRAVACUUM SECTION HEADER */
+
+/* CONLUSUON HYDRAVACUUM SECTION */
+.tratamientos-faciales-section-limpiezas-faciales-conclusion-col-content{
+	margin-left: 20em;
+	margin-right: 20em;
+	background-color: #ff9999;
+}
+
+/* CONCLUSION HYDRAVACUUM SECTION CONTENT */
+#tratamientos-faciales-section-limpiezas-faciales-hydravacuum-conclusion-row{
+	background-color: #ffe6e6;
+}
+
+#tratamientos-faciales-section-limpiezas-faciales-conclusion-col{
+	background-color: #ffe6e6;
+}
+
+#tratamientos-faciales-section-limpiezas-faciales-conclusion-col h6{
+	font-family: Open Sans Condensed Light;
+}
+/* FIN CONCLUSIONHYDRAVACUUM SECTION CONTENT */
+
+/* FIN CONCLUSION HYDRAVACUUM SECTION */
+
+
+
+
+
+/* AJUSTES LAYOUT IPHONE X */
+@media screen and (max-width: 375px){
+	#jumbo1{
+		background-size: 1000px;
+	}
+
+	#jumbo1 h1{
+		font-size: 30px;
+		text-align: center;
+	}
+
+	#jumbo2{
+		background-size: contain;
+	}
+
+	#jumbo3{
+		background-size: contain;
+	}
+
+	#navbarMain{
+	/*background-image: url("../imagenes/18121.jpg");
+	background-repeat: no-repeat;
+	background-position: center;*/
+	background-color: rgba(255, 255, 230, 1);
+	background-size: 375px;
+	/*background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;*/
+}
+
+.carousel-caption h5{
+	font-size: 25px;
+}
+
+.carousel-caption p{
+	font-size: 15px;
+}
+
+} 
+
+/* LAYOUT MOBILE L */
+@media screen and (max-width: 425px){
+	#jumbo1{
+		background-size: contain;
+	}
+
+	#jumbo2{
+		background-size: contain;
+	}
+
+	#jumbo3{
+		background-size: contain;
+	}
+
+	#navbarMain{
+	/*background-image: url("../imagenes/18121.jpg");
+	background-repeat: no-repeat;
+	background-position: center;*/
+	background-color: rgba(255, 255, 230, 1);
+	background-size: 375px;
+	/*background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;*/
+}
+
+.carousel-caption h5{
+	font-size: 25px;
+}
+
+.carousel-caption p{
+	font-size: 15px;
+}
+
+} 
+
+/*	width: 100%;
+}
+
+.carousel-item img{
+	width: 100%;
+}*/
