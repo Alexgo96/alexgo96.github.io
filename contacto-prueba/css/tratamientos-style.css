@@ -1,0 +1,450 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#background-color{
+	height: 30px;
+	background-color: black;
+	width: 100%;
+}
+
+.background-color-text{
+	text-align: center;
+	color: #d5ad6d!important;
+	font-family: Poppins;
+	font-weight: 300;
+}
+
+/* Navbar Header */
+#navbarMain{
+	/*background-image: url("../imagenes/18121.jpg");
+	background-repeat: no-repeat;
+	background-position: center;*/
+	/*background-size: 2000px;*/
+	background-size: 100px;
+	background-color: rgba(255, 255, 255, 0);
+	height: 80px;
+	transition: background-color 0.5s linear;
+	/*background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;*/
+}
+
+#navbarMainPostBajar{
+	/*background-image: url("../imagenes/18121.jpg");
+	background-repeat: no-repeat;
+	background-position: center;*/
+	/*background-size: 2000px;*/
+	background-size: 100px;
+	background-color: rgba(255, 255, 255, 1);
+	height: 80px;
+	transition: background-color 0.5s linear;
+	/*background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;*/
+}
+
+/* Navbar Header Items*/
+/*#navbarHeader{
+	padding-left: 400px;
+}*/
+
+#navbarHeaderText{
+font-size: 18px;
+font-family: Poppins;
+color: #d5ad6d!important;
+/*padding-top: 30px;*/ /* Antes era 70px */
+}
+
+/* Slides */
+/*#slidesContainer{
+	padding-top: 150px;
+	width: 100%;
+	height: 25px;
+}*/
+
+/*.carousel{
+	width: 100%;
+}*/
+
+/*DROPDOWNS OPTIONS*/
+
+#prueba:hover{
+	background-color: black;
+	color: white;
+}
+
+.dropdown > a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 55% 80%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    color: black;
+}
+
+.dropdown > a:hover, .dropdown > a:focus {
+    background-size: 87% 2px;
+}
+
+.dropdown-item{
+	font-size: 10px;
+	background-color: rgba(255, 255, 255, 0);
+    font-family: Poppins;
+}
+
+.dropdown-item:hover{
+}
+
+.container-fluid{
+	width: 100%;
+}
+
+.header-tratamientos-faciales{
+	font-size: 30px;
+	font-family: Poppins;
+	color: #d5ad6d!important;
+}
+
+.header-tratamientos-corporales{
+	font-size: 30px;
+	font-family: Poppins;
+	color: #d5ad6d!important;
+
+}
+
+.header-tratamientos-bienestar{
+	font-size: 30px;
+	font-family: Poppins;
+	color: #d5ad6d!important;
+
+}
+
+.carousel{
+	padding-top: 50px;
+	width: 100%;
+	height: 100%
+}
+.carousel:after{
+	content: "";
+	position: absolute;
+	bottom: -50px;
+	left: 25%;
+	width: 50%;
+	height: 4px;
+	background-color: #ffe0b3;
+	margin-left: -30px;
+}
+
+.carousel-inner{
+	width: 100%;
+	height: 100%;
+}
+
+.carousel-inner img{
+	width: 100%;
+	height: 100%;
+}
+
+.carousel-caption{
+	/*padding-bottom: 500px;*/
+}
+
+.carousel-caption h5{
+	font-size: 50px;
+}
+
+.carousel-caption p{
+	font-size: 30px;
+}
+
+.carousel-item > img{
+	max-height: 500px;
+}
+
+.frase{
+	margin-top: 50px;
+}
+
+.frase h2:after{
+	content: "";
+	position: absolute;
+	bottom: 10px;
+	left: 10%;
+	width: 80%;
+	height: 4px;
+	background-color: #ffe0b3;
+	margin-left: -30px;
+}
+
+.recomendaciones{
+	padding-top: 28px;
+}
+
+#jumbo1{
+
+	background-image: url("../imagenes/18121.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#jumbo2{
+
+	background-image: url("../imagenes/460117-PFK6CB-694.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#jumbo3{
+
+	background-image: url("../imagenes/2627702.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.la-mari-section img:before{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 25%;
+	width: 50%;
+	height: 4px;
+	background-color: #ffe0b3;
+	margin-left: -30px;
+}
+.la-mari-section{
+	padding: 0;
+	margin: 0;
+
+	background-color: #e6e6e6;
+}
+
+/*.la-mari-section h1, h2, h3, p{
+	text-align: center;
+}*/
+
+#la-mari-section-description h1, h2, p{
+	text-align: center;
+}
+
+/* Blog Section */
+.blog-section{
+	background-color: #ffe6e6;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+	max-height: 100%;
+}
+.blog-section h1, h2{
+	text-align: center;
+}
+
+#blog-section-header h1, h2{
+	margin-top: 10px;
+}
+
+#blog-1{
+	max-height: 600px;
+	background-image: url("../imagenes/2627702.jpg");
+}
+
+#blog-2{
+	background-image: url("../imagenes/460117-PFK6CB-694.jpg");
+}
+
+#blog-3{
+	background-image: url("../imagenes/18121.jpg");
+}
+
+/* Footer Section */
+.footer-section{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: /*#ffe6ff*/ white;
+}
+
+#footer-section-center-info h4, p{
+	text-align: center;
+	font-family: Poppins;
+}
+
+.footer-section-center-info-icons{
+	margin-left: 240px;
+}
+
+.footer-section-bottom p{
+	text-align: center;
+}
+
+.footer-section-bottom a{
+	font-size: 0.8em;
+}
+
+.footer-section-bottom i{
+	margin: 5px;
+}
+
+.footer-section-siguenos{
+	padding-right: 2em;
+}
+
+.fa-instagram{
+	color: rgb(0, 0, 0);
+}
+
+.fa-facebook{
+	color: rgb(0, 0, 0);
+}
+
+/*	width: 100%;
+}
+
+.carousel-item img{
+	width: 100%;
+}*/
+
+.tratamiento-facial-content{
+}
+
+.tratamiento-section-facial-header{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.tratamiento-section-corporal-header{
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+
+.tratamiento-section-bienestar-header{
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+
+.tratamiento-section-corporal-content > p{
+	font-family: Poppins;
+}
+
+.btn:hover{
+	background-color: #d5ad6d!important;
+	border-color: rgba(20,0,0,0);
+}
+
+.tratamiento-facial-1{
+	background-image: url("../imagenes/facial-translucido.png");
+	background-attachment: inherit;
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.tratamiento-facial-2{
+	background-image: url("../imagenes/antiedad-translucido.png");
+	background-attachment: inherit;
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.tratamiento-facial-7{
+	background-image: url("../imagenes/bbc-translucido.png");
+	background-attachment: inherit;
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.tratamiento-corporal-1{
+	background-image: url("../imagenes/corporal-translucido.png");
+	background-attachment: inherit;
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.tratamiento-corporal-2{
+	background-image: url("../imagenes/exfoliante-prueba.png");
+	background-attachment: inherit;
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.tratamiento-corporal-3{
+	background-image: url("../imagenes/reafirmante-translucido.png");
+	background-attachment: inherit;
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.tratamiento-corporal-4{
+	background-image: url("../imagenes/reductor-translucido.png");
+	background-attachment: inherit;
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.tratamiento-bienestar-1{
+	background-image: url("../imagenes/masaje-piedras-translucido.png");
+	background-attachment: inherit;
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.tratamiento-bienestar-2{
+	background-image: url("../imagenes/embarazadas-translucido.png");
+	background-attachment: inherit;
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.tratamiento-bienestar-3{
+	background-image: url("../imagenes/lifting-translucido.png");
+	background-attachment: inherit;
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+/*#jumbo-tratamiento-1{
+	background-image: url("../imagenes/2627702.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+#jumbo-tratamiento-2{
+	background-image: url("../imagenes/460117-PFK6CB-694.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#jumbo-tratamiento-3{
+	background-image: url("../imagenes/2627702.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+#jumbo-tratamiento-4{
+	background-image: url("../imagenes/460117-PFK6CB-694.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}+/

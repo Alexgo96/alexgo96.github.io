@@ -1,0 +1,22 @@
+body {
+	background-color: #ffe6ff;
+}
+
+#imagen {
+	padding-left: 35%;
+}
+
+p {
+	font-family: Arial, sans-serif;
+}
+
+#iconos {
+	padding-left: 48%;
+}
+a {
+	margin: 2%;
+}
+
+.fa-instagram{
+	color: rgb(255, 0, 85);
+}
